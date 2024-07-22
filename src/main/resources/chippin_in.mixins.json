@@ -1,6 +1,6 @@
 {
     "required": true,
-    "package": "dev.deftu.modtemplate.mixins",
+    "package": "dev.mayaqq.chippinin.mixins",
     "compatibilityLevel": "${java_version}",
     "injectors": {
         "defaultRequire": 1
