@@ -4,8 +4,9 @@
     "version": "${mod_version}",
     "name": "${mod_name}",
     "description": "${mod_description}",
+    "icon": "assets/chippin_in/icon.png",
     "authors": [
-        "Maya"
+        "Mayaqq"
     ],
     "contact": {
         "issues": "https://github.com/Deftu/${mod_name}/issues",

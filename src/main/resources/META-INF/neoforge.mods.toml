@@ -2,6 +2,7 @@ modLoader="javafml"
 loaderVersion="[1,)"
 issueTrackerURL="https://github.com/Deftu/${mod_name}/issues"
 license="LGPL-3.0-or-later"
+logoFile="assets/chippin_in/icon.png"
 
 [[mods]]
     modId="${mod_id}"
@@ -23,6 +24,13 @@ license="LGPL-3.0-or-later"
     versionRange="[${minor_mc_version}]"
     ordering="NONE"
     side="BOTH"
+
+[[dependencies.${mod_id}]]
+modId="fabric_api"
+mandatory=true
+versionRange="[0.100.7+2.0.6+1.21,)"
+ordering="NONE"
+side="BOTH"
 
 [[mixins]]
     config="${mod_id}.mixins.json"

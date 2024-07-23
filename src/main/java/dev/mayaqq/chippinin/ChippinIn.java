@@ -13,6 +13,7 @@ public class ChippinIn {
     public static final Logger LOGGER = LoggerFactory.getLogger(NAME);
 
     public static void onInitializeCommon() {
+        LOGGER.info("Ca-can you feel it?");
     }
 
     public static ResourceLocation id(String path) {
